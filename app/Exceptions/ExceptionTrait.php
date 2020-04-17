@@ -24,7 +24,6 @@ trait ExceptionTrait
         }
 
         return parent::render($request, $exception);
-
     }
 
     protected function isModel($exception)
